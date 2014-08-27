@@ -1,0 +1,49 @@
+This is a somewhat ordered TODO list:
+
+Recurring tasks:
+
+- update versions for every tools...
+
+- update and/or upgrade all samples
+
+
+Non-recurring tasks:
+
+- update newlib (for enhanced bare metal)
+  - confirm existing implementation on targets other than AVR32
+  - try to make it generic, will help for uClibc++
+
+- multilib
+
+- Cygwin target (needs newlib)
+  - so we can build toolchains that generate code for Windows/Cygwin
+
+- uClibc++
+  - see newlib, above
+
+- uClinux
+  - check whether we can use newlib under uClinux (?)
+
+- Darwin / Clang
+  - driverdriver needs to be added to the project
+
+  - llvm-gcc needs to work again.
+
+  - HOST_LINK_VERSION is used instead of `${program-prefix}-ld --version`
+
+  - `${program-prefix}-ld -v` yields @(#)PROGRAM:ld  PROJECT:cctools-809
+    instead of e.g. @(#)PROGRAM:ld  PROJECT:ld64-127
+
+  - Add llvm-config-build and llvm-config-host for when going Canadian.
+
+  - Consider adding PPC support?
+
+  - Copy cctools' needed SDK headers from the SDK at patch-time instead
+    of providing them in a patch - needs an OSX SDK to be identified
+    though, even for an iPhone build.
+
+- Python Support
+  - gdb has Python integration, so add option to build Python.
+
+- LLDB Support
+  - Add this, it also has Python integration.
