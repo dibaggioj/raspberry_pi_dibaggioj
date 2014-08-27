@@ -707,3 +707,51 @@ ffmpeg -s 320x240 -f video4linux2 -i /dev/video5 -f mpeg1video \ -b 800k -r 30 h
 ffmpeg -s 320x240 -f video4linux2 -i /dev/video4 -f mpeg1video \ -b 800k -r 30 http://192.168.1.108:8082/johnpi/320/240/
 ffmpeg -s 320x240 -f video4linux2 -i /dev/video1 -f mpeg1video -q:v 5 -r 24 http://192.168.1.108:8082/johnpi/320/240/
 avconv -r 25 -s 320x240 -f video4linux2 -i /dev/video4 http://192.168.1.108:8082/raspicam.ffm
+cd ../..
+ls
+cd ..
+ls
+git init
+sudo git init
+git add .
+sudo git add .
+cd ~
+ls
+cd ../..
+ls
+cd ~
+sudo git init
+sudo git add .
+cd cam_files/
+ls
+rm cam.jpg 
+rm image2.jpg
+rm image.jpg 
+rm image3.jpg
+rm image4.jpg
+rm video.h264 
+ls
+rm new.jpg 
+cd ..
+git add .
+sudo git add .
+git gommit -m 'initial commit'
+git commit -m 'initial commit'
+sudo git commit -m 'initial commit'
+sudo git remote add origin https://github.com/dibaggioj/raspberry_pi_dibaggioj.git
+sudo git remote -v
+sudo git push origin master
+sudo git commit -m 'delete'
+sudo git push origin master
+sudo git commit -a 'delete'
+sudo git commit -a
+sudo git push origin master
+ls
+rm crosstool-ng-master.zip 
+sudo git commit -a
+sudo git push origin master
+raspivid -o vid.h264 -t 4000
+raspistill -o image.jpg
+reboot now
+reboot
+sudo reboot
