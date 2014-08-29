@@ -755,3 +755,26 @@ raspistill -o image.jpg
 reboot now
 reboot
 sudo reboot
+raspitill -o vid.h264 4000
+raspistill -o vid.h264 4000
+raspistill -o vid.h264 -t 4000
+raspivid -o vid.h264 -t 4000
+rm vid.h264 
+cd dist/node
+ls
+node stream-server.js 
+node stream-server.js johnpi
+ls
+node stream-server.js johnpi
+sudo node stream-server.js johnpi
+sudo git commit -a
+cd ../..
+ls
+sudo git commit -a
+sudo git push origin master
+cd dist/node/
+git commit -a
+git push origin master
+sudo node stream-server.js johnpi
+sudo node /homr/pi/dist/node/stream-server.js johnpi
+sudo node /home/pi/dist/node/stream-server.js johnpi
