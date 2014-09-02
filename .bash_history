@@ -778,3 +778,74 @@ git push origin master
 sudo node stream-server.js johnpi
 sudo node /homr/pi/dist/node/stream-server.js johnpi
 sudo node /home/pi/dist/node/stream-server.js johnpi
+sudo node /home/pi/dist/node/stream-server.js
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+ifconfig
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+sudo node /home/pi/dist/node/stream-server.js
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+ffserver
+curl http://whatismyip.org/
+curl -s checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
+wget -qO- http://ipecho.net/plain ; echo
+sudo node /home/pi/dist/node/stream-server.js
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+sudo node /home/pi/dist/node/stream-server.js
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/180/120
+sudo nano /etc/ffserver.conf
+ffserver -d -f /etc/ffserver.conf 
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo node /home/pi/dist/node/stream-server.js
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo node /home/pi/dist/node/stream-server.js
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+sudo nano /etc/ffserver.conf
+raspivid -t 0 -fps 10 -f -w 180 -h 120 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/180/120
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+
+scp pi@192.168.1.108:/etc/ffserver.conf /Volumes/Mac\ HDD\ Storage/GitHub/FFmpeg/sample/ffserver.conf
+scp pi@192.168.1.108:/etc/ffserver.conf ../../../Mac\ HDD\ Storage/GitHub/FFmpeg/sample/ffserver.conf
+scp pi@192.168.1.108:/etc/ffserver.conf Mac\ HDD\ Storage/GitHub/FFmpeg/sample/ffserver.conf
+scp pi@192.168.1.108:/etc/ffserver.conf ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo o nano /etc/ffserver.conf
+sudo nano /etc/ffserver.conf
+ls
+nano -b
+rm ffserver.conf 
+ls
+git -a commit 'commit'
+git commit -a 'commit'
+git commit -a
+sudo git commit -a
+push master
+sudo git push origin master
+sudo ffserver -d -f /etc/ffserver.conf 
+sudo node /home/pi/dist/node/stream-server.js
+raspivid -t 0 -fps 10 -f -w 320 -h 240 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/360/240
+sudp nano /etc/ffserver.conf 
+sudo nano /etc/ffserver.conf 
+raspivid -t 0 -fps 10 -f -w 320 -h 240 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/360/240
+raspivid -t 0 -fps 10 -f -w 320 -h 240 -o - |  avconv -f h264 -i pipe:0 -f mpeg1video -b 300k -r 25 http://127.0.0.1:8082/111/320/240
+ls
+whoami
+whatsmyip
