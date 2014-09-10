@@ -849,3 +849,165 @@ raspivid -t 0 -fps 10 -f -w 320 -h 240 -o - |  avconv -f h264 -i pipe:0 -f mpeg1
 ls
 whoami
 whatsmyip
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://localhost.dev/robot/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+cd /ffmpeg
+raspivid -vf -t 0 -w 450 -h 200 -fps 25 -b 2000000 -o - | ffmpeg -i - -c:v libx264 -vcodec copy -f h264 -loglevel debug test.mp4
+raspivid -vf -t 0 -w 450 -h 200 -fps 25 -b 1000 -o - | ffmpeg -i - -c:v libx264 -vcodec copy -f h264 -loglevel debug test.mp4
+rm test.mp4 
+raspivid -vf -t 0 -w 450 -h 200 -fps 25 -b 1000 -o - | ffmpeg -i - -c:v libx264 -vcodec copy -f h264 -loglevel debug test.mp4
+rm test.mp4 
+raspivid -vf -t 0 -w 450 -h 200 -fps 25 -b 1000000 -o - | ffmpeg -i - -c:v libx264 -vcodec copy -f h264 -loglevel debug test.mp4
+rm test.mp4 
+raspivid -vf -t 10000 -w 450 -h 200 -fps 25 -b 1000000 -o - | ffmpeg -i - -c:v libx264 -vcodec copy -f h264 -loglevel debug test.mp4
+rm test.mp4 
+raspivid -vf -t 0 -w 450 -h 200 -fps 25 -b 2000000 -o - | ffmpeg -f h264 -r 25 -c:v h264 -i - -c:v libx264 -loglevel debug test.mp4
+raspivid -vf -t 0 -w 450 -h 200 -fps 25 -b 2000000 -o - | ffmpeg -f h264 -r 25 -c:v h264 -i - -vcodec libx264 -loglevel debug test.mp4
+rm test.mp4 
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video4 -f mpeg1video -r 24
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 https://github.com/phoboslab/jsmpeg
+node dist/node/stream-server.js johnpi
+cd dist/node
+ls
+cd node_modules/
+ls
+
+ls
+node dist/node/stream-server.js johnpi
+sudo node dist/node/stream-server.js johnpi
+node dist/node/stream-server.js johnpi
+wscat -c ws://thegigabots.app.bigbang.io
+cd dist/node
+wscat -c ws://thegigabots.app.bigbang.io
+npm install -g ws
+sudo npm install -g ws
+wscat -c ws://thegigabots.app.bigbang.io
+wscat -c ws://dibaggioj.ddns.net
+wscat -c ws://people.ku.edu
+wscat -c ws://www.people.ku.edu/~dibaggioj
+wscat -c ws://www.people.ku.edu
+wscat -c ws://cloud.bigbang.io
+wscat -c ws://cloud.bigbang.io:9001
+wscat -c ws://thegigabots.app.bigbang.io:80
+node /home/pi/dist/node/stream-server.js johnpi
+wscat -c ws://thegigabots.app.bigbang.io:8084
+wscat -c ws://thegigabots.app.bigbang.io:80
+wscat -c ws://thegigabots.app.bigbang.io:8084
+node /home/pi/dist/node/stream-server.js johnpi
+sudo node /home/pi/dist/node/stream-server.js johnpi
+wscat -c ws://cloud.bigbang.io -p 9001
+wscat -c ws://echo.websocket.org
+wscat -c ws://echo.websocket.org -p 8
+hey
+wscat -c ws://echo.websocket.org -p 8
+sudo node /home/pi/dist/node/stream-server.js johnpi
+wscat -c ws://echo.websocket.org:80
+wscat -c ws://thegigabots.app.bigbang.io:8080
+wscat -c ws://thegigabots.app.bigbang.io:90
+wscat -c ws://thegigabots.app.bigbang.io:80
+wscat -l ws://thegigabots.app.bigbang.io:80
+wscat --listen ws://thegigabots.app.bigbang.io:80
+wscat -l ws://thegigabots.app.bigbang.io
+sudo wscat -l ws://thegigabots.app.bigbang.io
+wscat -l ws://echo.websocket.org
+sudo node /home/pi/dist/node/stream-server.js johnpi
+reboot
+sudo reboot
+free -h -s 1
+free -h
+top
+git commit -a
+sudo git commit -a
+push to master
+sudo git push to master
+ls
+sudo git push origin master
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://127.0.0.1:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video1 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video2 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://127.0.0.1:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://127.0.0.1:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480/
+sudo node /home/pi/dist/node/stream-server.js johnpi
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://54.68.14.193/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com:22/johnpi/640/480/
+sudo ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com:22/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com:22/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://192.168.1.108:8082/johnpi/640/480
+sudo node /home/pi/dist/node/stream-server.js johnpi
+sudo reboot
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com:8082/johnpi/640/480/
+sudo reboot
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-14-193.us-west-2.compute.amazonaws.com:8082/johnpi/640/480/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-94-116.us-west-2.compute.amazonaws.com:8082/johnpi/640/480/
+sudo reboot
+raspistill -v -o test.jpg
+raspivid -t 2000 -o video.h264
+ls
+top
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-100-70.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-97-136.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/558/350/
+ffmpeg -s 558x350 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/558/350/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 640x480 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/640/480/
+ffmpeg -s 540x405 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/540/405/
+ffmpeg -s 480x360 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/480/360/
+ffmpeg -s 280x210 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/280/210/
+ffmpeg -s 256x192 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/256/192/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+raspivid -t 0 -w 320 -h 240 -fps 20 -vf -o - | ffmpeg -y -i pipe:0 -s 320x240 -f video4linux2 -f mpeg1video -b 400k -r 30 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+uv4l --help --driver raspicam --driver-help
+ls
+rm -r crosstool-ng-master/
+rm test.jpg 
+rm video.h264 
+ls
+raspivid -t 9999999 -w 960 -h 540 -fps 25 -hf -o - | ffmpeg -i - -vcodec copy -an -r 25 -f flv -metadata streamName=raspicamtcp://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082
+raspivid -t 9999999 -w 960 -h 540 -fps 25 -hf -o - | ffmpeg -i - -vcodec copy -an -r 25 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/960/540/
+raspivid -t 9999999 -w 960 -h 540 -fps 25 -hf -o - | ffmpeg -i - -vcodec copy -an -f mpeg1video -r 24 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/960/540/
+raspivid -t 9999999 -w 960 -h 540 -fps 25 -hf -o - | ffmpeg -i - -vcodec copy -an -r 24 -f mpeg1video http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/960/540/
+ffmpeg -s 360x270 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/360/270/
+ffmpeg -s 400x300 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/400/300/
+ffmpeg -s 384x288 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/384/288/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 400x300 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-32-16.us-west-2.compute.amazonaws.com:8082/johnpi/400/300/
+top
+top
+exit
+screen -ls
+screen -r 11512.pts-0.raspberrypi
+screen -r 11458.pts-0.raspberrypi
+screen -ls
+exit
+screen
+screen -ls
+exit
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-70-127.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
+screen
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-70-127.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
+ls
+dh -f
+df -h
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-70-127.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-70-127.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-70-127.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-70-127.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+sudo reboot
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
