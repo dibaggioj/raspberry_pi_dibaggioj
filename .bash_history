@@ -1111,3 +1111,100 @@ mv helloworld.py tornado-4.0.2/helloworld.py
 cd tornado-4.0.2/
 sudo python helloworld.py
 exit
+sudo git commit -a
+sudo git push origin master
+sudo git commit -a
+ls
+sudo git add .
+sudo git commit -a
+sudo git push origin master
+nano README.md
+sudo git add .
+sudo git commit -a
+sudo git push origin master
+ecit
+cd tornado-4.0.2/
+version
+ls
+cd tornado
+ls
+version
+tornado version
+VERSION
+cd ..
+ld
+ls
+sudo python helloworld.py 
+pip install backports.ssl_match_hostname
+sudo python helloworld.py 
+cd ..
+cd tornado-4.0.2/
+pip uninstall tornado
+cd ..
+easy_install tornado
+sudo easy_install tornado
+cd tornado-4.0.2/
+ls
+sudo python helloworld.py 
+easy_install  backports.ssl_match_hostname
+sudo easy_install  backports.ssl_match_hostname
+sudo python helloworld.py 
+cd ..
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+mv ledcontrol.py tornado-4.0.2/ledcontrol.py
+cd tornado-4.0.2/
+sudo python ledcontrol.py 
+mv ledcontrol.py ../ledcontrol.py
+cd ..
+ld
+ls
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+sudo python ledcontrol.py 
+nano ledcontrol.py 
+ls
+cd node_modules/
+ls
+cd ..
+npm isntall pi-gpio
+sudo npm install pi-gpio
+cd node_modules/
+ls
+cd ..
+ls
+cd dist/node/
+cd node_modules/
+ls
+cd ..
+sudo npm install pi-gpio
+cd ~
+exit
+cd dist/node/
+
+scp stream.js JSDiBaggio@192.168.1.105:/Users/JSDiBaggio/stream.js
+scp stream.js John-DiBaggios-MacBook@192.168.1.105:/Users/JSDiBaggio/stream.js
+ls
+node stream.js
+node app.js
+sudo node app.js
+cd ~
+git clone git://github.com/quick2wire/quick2wire-gpio-admin.git
+cd quick2wire-gpio-admin/
+make
+sudo make install
+sudo adduser $pi gpio
+exit
