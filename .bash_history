@@ -1011,3 +1011,103 @@ ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-
 sudo reboot
 ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
 exit
+sudo git commit -a
+sudo git push origin
+exit
+usdo shutdown now
+sudo shutdown now
+node dist/node/BigBangShell.js
+node dist/node/BigBangShell.js thegigabots.app.bigbang.io
+top
+node dist/node/BigBangShell.js thegigabots.app.bigbang.io
+top
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 60 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
+node dist/node/BigBangShell.js thegigabots.app.bigbang.io
+exit
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 24 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+sudo wicd-curses
+ssh JSDiBaggio@192.168.1.105
+fconfig
+ffconfig
+fconfig
+fconf
+ffconf
+hconfig
+ls
+ifconfig
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 60 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ls
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+sudo shutdown now
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
+                                                                                                                                                                                                                        ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+sudo shutdown now
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+sudo reboot
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+cd dist/node/
+node BigBangShell.js thegigabots.app.bigbang.io
+ffmpeg -s 320x240 -f video4linux2 -i /dev/video0 -f mpeg1video -r 30 http://ec2-54-68-114-21.us-west-2.compute.amazonaws.com:8082/johnpi/320/240/
+exit
+wget https://pypi.python.org/packages/source/t/tornado/tornado-4.0.2.tar.gz
+ls
+tar -zxvf tornado-4.0.2.tar.gz 
+ls
+rm tornado-4.0.2.tar.gz 
+ls
+pip
+pip install tornado
+cd tornado-4.0.2/
+python setup.py build
+sudo python setup.py install
+cd ~
+pip
+python
+sudo apt-get install python-dev
+sudo apt-get install libjpeg-dev && sudo apt-get install libfreetype6-dev && sudo apt-get install python-setuptools && sudo apt-get install python-pip
+pip install tornado
+pip upgrade tornado
+pip --upgrade tornado
+sudo apt-get upgrade tornado
+ls
+nano ledcontrol.py
+sudo python ledcontrol.py
+tornado
+pip install backports.ssl_match_hostname
+sudo python ledcontrol.py
+pip install backports.ssl_wrap_socket
+nano ledcontrol.py
+sudo python ledcontrol.py
+pip uninstall tornado
+pip install tornado
+tornado
+sudo python ledcontrol.py
+tornado.util
+tornado.options
+cd tornado-4.0.2/
+ls
+cd build
+ls
+cd ~
+sudo python ledcontrol.py
+nano ledcontrol.py
+sudo python ledcontrol.py
+cd tornado-4.0.2/
+pip install backports.ssl_match_hostname
+cd ~
+sudo python ledcontrol.py
+cd tornado-4.0.2/
+cd ~
+nano ledcontrol.py
+nano helloworld.py
+sudo python helloworld.py
+mv helloworld.py tornado-4.0.2/helloworld.py
+cd tornado-4.0.2/
+sudo python helloworld.py
+exit
